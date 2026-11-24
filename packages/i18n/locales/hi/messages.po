@@ -1035,6 +1035,7 @@ msgstr "{name} के लिए कार्रवाइयाँ"
 #: apps/mobile/app/routine.tsx
 #: apps/web/src/pages/routines/RoutineEditor.tsx
 #: apps/web/src/pages/settings/BillingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Active"
 msgstr "सक्रिय"
 
@@ -1507,6 +1508,10 @@ msgstr "हमेशा अनुमति दें"
 msgid "Always allow {site}"
 msgstr "{site} को हमेशा अनुमति दें"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Always allow routine updates"
+msgstr ""
+
 #: apps/mobile/lib/cards/ask-action-label.ts
 #: apps/web/src/components/messages/AskCard.tsx
 msgid "Always allow this tool"
@@ -1715,6 +1720,10 @@ msgstr "स्वीकृतियाँ"
 #: apps/web/src/pages/shell/chat/message-cards.tsx
 msgid "Approve"
 msgstr "अनुमोदित करें"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Approve once"
+msgstr ""
 
 #: apps/mobile/lib/calls/call-session.ts
 #: apps/web/src/lib/calls/call-session.ts
@@ -4905,6 +4914,7 @@ msgstr "दिन"
 #: apps/web/src/components/call/IncomingCall.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/pages/settings/MessagingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Decline"
 msgstr "अस्वीकार करें"
 
@@ -6449,6 +6459,10 @@ msgstr "मीटिंग में"
 msgid "In this bot"
 msgstr "इस बॉट में"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "In this chat"
+msgstr ""
+
 #: apps/mobile/app/(settings)/mcp-server.tsx
 msgid "In use"
 msgstr "उपयोग में"
@@ -7542,6 +7556,11 @@ msgstr "और"
 msgid "More actions"
 msgstr "और कार्रवाइयाँ"
 
+#: apps/mobile/components/cards/AskActions.tsx
+#: apps/web/src/components/messages/AskCard.tsx
+msgid "More approval options"
+msgstr ""
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "More apps"
 msgstr "और ऐप्स"
@@ -7565,7 +7584,7 @@ msgid "Move them to your shared memory."
 msgstr "उन्हें अपनी साझा मेमोरी में ले जाएं।"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/board/board-list.ios.tsx
 #: apps/mobile/lib/board/board-list.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
@@ -7618,6 +7637,7 @@ msgstr "मेरे कंप्यूटर"
 #: apps/web/src/pages/shell/bots/create-bot-dialog.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
 #: apps/web/src/pages/space/GroupPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Name"
 msgstr "नाम"
 
@@ -7764,6 +7784,10 @@ msgstr "नई ग्रुप चैट"
 msgid "New header value"
 msgstr "नया हेडर मान"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "New instructions"
+msgstr ""
+
 #: apps/mobile/app/(settings)/vault.tsx
 msgid "New item"
 msgstr "नया आइटम"
@@ -7812,7 +7836,7 @@ msgid "New routine"
 msgstr "नया रूटीन"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -7862,6 +7886,7 @@ msgid "Next page"
 msgstr "अगला पृष्ठ"
 
 #: apps/mobile/app/routine.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Next run"
 msgstr "अगला रन"
 
@@ -8109,6 +8134,7 @@ msgstr "वेबसाइट और पासवर्ड कॉलम नह�
 #: apps/web/src/components/billing/SpendingLimitSettings.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/components/vault/VaultItemEditor.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "None"
 msgstr "कोई नहीं"
 
@@ -8763,6 +8789,7 @@ msgstr "{name} रोकें"
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineList.tsx
 #: apps/web/src/pages/shell/bots/import-status.ts
+#: packages/i18n/src/routine-approval.ts
 msgid "Paused"
 msgstr "रोका गया"
 
@@ -8959,6 +8986,11 @@ msgstr "इस फ़ाइल प्रकार के लिए प्री�
 msgid "Previous image"
 msgstr "पिछली इमेज"
 
+#: apps/mobile/components/cards/routine-approval-detail.tsx
+#: apps/web/src/components/messages/RoutineApprovalDetail.tsx
+msgid "Previous instructions"
+msgstr ""
+
 #: apps/web/src/pages/shell/chat/chat-find-bar.tsx
 msgid "Previous match"
 msgstr "पिछला मिलान"
@@ -8970,6 +9002,10 @@ msgstr "पिछला पृष्ठ"
 #: apps/web/src/pages/settings/SettingsOverlay.tsx
 msgid "Previous settings sections"
 msgstr "पिछले सेटिंग्स अनुभाग"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Previously: {value}"
+msgstr ""
 
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
@@ -9539,8 +9575,8 @@ msgid "Rename"
 msgstr "नाम बदलें"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/components/inbox/inbox-render-item.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -9792,7 +9828,7 @@ msgid "Restoring…"
 msgstr "बहाल हो रहा है…"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Resume notifications"
 msgstr "सूचनाएँ फिर शुरू करें"
 
@@ -10182,6 +10218,10 @@ msgstr "सहेजा जा रहा है…"
 msgid "Say yes or no, or answer in a sentence."
 msgstr "हां या ना कहें, या एक वाक्य में उत्तर दें।"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Schedule"
+msgstr ""
+
 #: apps/mobile/app/routine.tsx
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineEditor.tsx
@@ -10430,6 +10470,7 @@ msgstr "यह प्रॉम्प्ट अपने असिस्टें
 msgid "Send with Enter"
 msgstr "Enter से भेजें"
 
+#: apps/mobile/components/cards/AskActions.tsx
 #: apps/mobile/components/thread/failed-send-bubble.tsx
 #: apps/web/src/components/messages/AskCard.tsx
 #: apps/web/src/components/messages/SecretAskCard.tsx
@@ -10444,6 +10485,10 @@ msgstr "भेजा जा रहा है…"
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 msgid "Sent"
 msgstr "भेजा गया"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Separately from this chat"
+msgstr ""
 
 #: apps/mobile/app/_layout.tsx
 #: apps/mobile/app/(settings)/mcp-server.tsx
@@ -10800,7 +10845,7 @@ msgid "Signing out deletes unsent messages."
 msgstr "साइन आउट करने से बिना भेजे गए संदेश डिलीट हो जाते हैं।"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Silence notifications"
 msgstr "सूचनाएँ बंद करें"
 
@@ -10909,7 +10954,7 @@ msgid "Slide up to lock"
 msgstr "लॉक करने के लिए ऊपर खिसकाएँ"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 msgid "Snooze"
 msgstr "स्नूज़ करें"
@@ -11167,6 +11212,7 @@ msgstr "राज्य या क्षेत्र"
 #: apps/web/src/pages/space/ActivityList.tsx
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Status"
 msgstr "स्थिति"
 
@@ -11970,6 +12016,10 @@ msgstr "टिकट"
 msgid "Time of day"
 msgstr "दिन का समय"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Time zone"
+msgstr ""
+
 #: apps/web/src/pages/settings/AccountSettingsOverlay.tsx
 msgid "Timezone"
 msgstr "टाइमज़ोन"
@@ -12259,7 +12309,7 @@ msgid "Type your answer"
 msgstr "अपना उत्तर लिखें"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/inbox-spaces.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/use-sidebar-view.ts
@@ -12316,7 +12366,7 @@ msgid "Unsent messages"
 msgstr "बिना भेजे गए संदेश"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/snoozed-chats.tsx
 msgid "Unsnooze"
@@ -12906,6 +12956,10 @@ msgstr "कब चलाएं"
 #: apps/web/src/components/vault/VaultItemEditor.tsx
 msgid "When to use"
 msgstr "कब उपयोग करें"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Where it runs"
+msgstr ""
 
 #: apps/web/src/pages/shell/host-computer-prompt.tsx
 msgid "Where should bots run?"

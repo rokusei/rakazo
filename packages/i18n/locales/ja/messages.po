@@ -1035,6 +1035,7 @@ msgstr "{name}の操作"
 #: apps/mobile/app/routine.tsx
 #: apps/web/src/pages/routines/RoutineEditor.tsx
 #: apps/web/src/pages/settings/BillingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Active"
 msgstr "有効"
 
@@ -1507,6 +1508,10 @@ msgstr "常に許可"
 msgid "Always allow {site}"
 msgstr "{site}を常に許可"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Always allow routine updates"
+msgstr ""
+
 #: apps/mobile/lib/cards/ask-action-label.ts
 #: apps/web/src/components/messages/AskCard.tsx
 msgid "Always allow this tool"
@@ -1715,6 +1720,10 @@ msgstr "承認"
 #: apps/web/src/pages/shell/chat/message-cards.tsx
 msgid "Approve"
 msgstr "承認"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Approve once"
+msgstr ""
 
 #: apps/mobile/lib/calls/call-session.ts
 #: apps/web/src/lib/calls/call-session.ts
@@ -4905,6 +4914,7 @@ msgstr "日"
 #: apps/web/src/components/call/IncomingCall.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/pages/settings/MessagingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Decline"
 msgstr "拒否"
 
@@ -6449,6 +6459,10 @@ msgstr "会議に参加中"
 msgid "In this bot"
 msgstr "このボット内"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "In this chat"
+msgstr ""
+
 #: apps/mobile/app/(settings)/mcp-server.tsx
 msgid "In use"
 msgstr "使用中"
@@ -7542,6 +7556,11 @@ msgstr "その他"
 msgid "More actions"
 msgstr "その他の操作"
 
+#: apps/mobile/components/cards/AskActions.tsx
+#: apps/web/src/components/messages/AskCard.tsx
+msgid "More approval options"
+msgstr ""
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "More apps"
 msgstr "その他のアプリ"
@@ -7565,7 +7584,7 @@ msgid "Move them to your shared memory."
 msgstr "共有メモリに移動します。"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/board/board-list.ios.tsx
 #: apps/mobile/lib/board/board-list.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
@@ -7618,6 +7637,7 @@ msgstr "マイコンピューター"
 #: apps/web/src/pages/shell/bots/create-bot-dialog.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
 #: apps/web/src/pages/space/GroupPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Name"
 msgstr "名前"
 
@@ -7764,6 +7784,10 @@ msgstr "新しいグループチャット"
 msgid "New header value"
 msgstr "新しいヘッダー値"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "New instructions"
+msgstr ""
+
 #: apps/mobile/app/(settings)/vault.tsx
 msgid "New item"
 msgstr "新しい項目"
@@ -7812,7 +7836,7 @@ msgid "New routine"
 msgstr "新しいルーティン"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -7862,6 +7886,7 @@ msgid "Next page"
 msgstr "次のページ"
 
 #: apps/mobile/app/routine.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Next run"
 msgstr "次回の実行"
 
@@ -8109,6 +8134,7 @@ msgstr "ウェブサイトとパスワードの列が見つかりません。"
 #: apps/web/src/components/billing/SpendingLimitSettings.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/components/vault/VaultItemEditor.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "None"
 msgstr "なし"
 
@@ -8763,6 +8789,7 @@ msgstr "{name}を一時停止"
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineList.tsx
 #: apps/web/src/pages/shell/bots/import-status.ts
+#: packages/i18n/src/routine-approval.ts
 msgid "Paused"
 msgstr "一時停止中"
 
@@ -8959,6 +8986,11 @@ msgstr "このファイル形式はプレビューできません。ダウンロ
 msgid "Previous image"
 msgstr "前の画像"
 
+#: apps/mobile/components/cards/routine-approval-detail.tsx
+#: apps/web/src/components/messages/RoutineApprovalDetail.tsx
+msgid "Previous instructions"
+msgstr ""
+
 #: apps/web/src/pages/shell/chat/chat-find-bar.tsx
 msgid "Previous match"
 msgstr "前の一致"
@@ -8970,6 +9002,10 @@ msgstr "前のページ"
 #: apps/web/src/pages/settings/SettingsOverlay.tsx
 msgid "Previous settings sections"
 msgstr "前の設定セクション"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Previously: {value}"
+msgstr ""
 
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
@@ -9539,8 +9575,8 @@ msgid "Rename"
 msgstr "名前を変更"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/components/inbox/inbox-render-item.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -9792,7 +9828,7 @@ msgid "Restoring…"
 msgstr "復元中…"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Resume notifications"
 msgstr "通知を再開"
 
@@ -10182,6 +10218,10 @@ msgstr "保存中…"
 msgid "Say yes or no, or answer in a sentence."
 msgstr "「はい」か「いいえ」、または文章で答えてください。"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Schedule"
+msgstr ""
+
 #: apps/mobile/app/routine.tsx
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineEditor.tsx
@@ -10430,6 +10470,7 @@ msgstr "このプロンプトをアシスタントに送信"
 msgid "Send with Enter"
 msgstr "Enterで送信"
 
+#: apps/mobile/components/cards/AskActions.tsx
 #: apps/mobile/components/thread/failed-send-bubble.tsx
 #: apps/web/src/components/messages/AskCard.tsx
 #: apps/web/src/components/messages/SecretAskCard.tsx
@@ -10444,6 +10485,10 @@ msgstr "送信中…"
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 msgid "Sent"
 msgstr "送信済み"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Separately from this chat"
+msgstr ""
 
 #: apps/mobile/app/_layout.tsx
 #: apps/mobile/app/(settings)/mcp-server.tsx
@@ -10800,7 +10845,7 @@ msgid "Signing out deletes unsent messages."
 msgstr "ログアウトすると未送信のメッセージが削除されます。"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Silence notifications"
 msgstr "通知をミュート"
 
@@ -10909,7 +10954,7 @@ msgid "Slide up to lock"
 msgstr "上にスライドしてロック"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 msgid "Snooze"
 msgstr "スヌーズ"
@@ -11167,6 +11212,7 @@ msgstr "都道府県・地域"
 #: apps/web/src/pages/space/ActivityList.tsx
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Status"
 msgstr "ステータス"
 
@@ -11970,6 +12016,10 @@ msgstr "チケット"
 msgid "Time of day"
 msgstr "時刻"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Time zone"
+msgstr ""
+
 #: apps/web/src/pages/settings/AccountSettingsOverlay.tsx
 msgid "Timezone"
 msgstr "タイムゾーン"
@@ -12259,7 +12309,7 @@ msgid "Type your answer"
 msgstr "回答を入力"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/inbox-spaces.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/use-sidebar-view.ts
@@ -12316,7 +12366,7 @@ msgid "Unsent messages"
 msgstr "未送信のメッセージ"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/snoozed-chats.tsx
 msgid "Unsnooze"
@@ -12906,6 +12956,10 @@ msgstr "実行タイミング"
 #: apps/web/src/components/vault/VaultItemEditor.tsx
 msgid "When to use"
 msgstr "使用するタイミング"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Where it runs"
+msgstr ""
 
 #: apps/web/src/pages/shell/host-computer-prompt.tsx
 msgid "Where should bots run?"

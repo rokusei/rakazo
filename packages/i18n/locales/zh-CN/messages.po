@@ -1035,6 +1035,7 @@ msgstr "{name} 的操作"
 #: apps/mobile/app/routine.tsx
 #: apps/web/src/pages/routines/RoutineEditor.tsx
 #: apps/web/src/pages/settings/BillingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Active"
 msgstr "启用"
 
@@ -1507,6 +1508,10 @@ msgstr "始终允许"
 msgid "Always allow {site}"
 msgstr "始终允许 {site}"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Always allow routine updates"
+msgstr ""
+
 #: apps/mobile/lib/cards/ask-action-label.ts
 #: apps/web/src/components/messages/AskCard.tsx
 msgid "Always allow this tool"
@@ -1715,6 +1720,10 @@ msgstr "审批"
 #: apps/web/src/pages/shell/chat/message-cards.tsx
 msgid "Approve"
 msgstr "批准"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Approve once"
+msgstr ""
 
 #: apps/mobile/lib/calls/call-session.ts
 #: apps/web/src/lib/calls/call-session.ts
@@ -4905,6 +4914,7 @@ msgstr "天"
 #: apps/web/src/components/call/IncomingCall.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/pages/settings/MessagingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Decline"
 msgstr "拒绝"
 
@@ -6449,6 +6459,10 @@ msgstr "会议中"
 msgid "In this bot"
 msgstr "已在此 Bot"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "In this chat"
+msgstr ""
+
 #: apps/mobile/app/(settings)/mcp-server.tsx
 msgid "In use"
 msgstr "使用中"
@@ -7542,6 +7556,11 @@ msgstr "更多"
 msgid "More actions"
 msgstr "更多操作"
 
+#: apps/mobile/components/cards/AskActions.tsx
+#: apps/web/src/components/messages/AskCard.tsx
+msgid "More approval options"
+msgstr ""
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "More apps"
 msgstr "更多应用"
@@ -7565,7 +7584,7 @@ msgid "Move them to your shared memory."
 msgstr "把它们移到共享记忆。"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/board/board-list.ios.tsx
 #: apps/mobile/lib/board/board-list.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
@@ -7618,6 +7637,7 @@ msgstr "我的电脑"
 #: apps/web/src/pages/shell/bots/create-bot-dialog.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
 #: apps/web/src/pages/space/GroupPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Name"
 msgstr "名称"
 
@@ -7764,6 +7784,10 @@ msgstr "新建群聊"
 msgid "New header value"
 msgstr "新的请求头值"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "New instructions"
+msgstr ""
+
 #: apps/mobile/app/(settings)/vault.tsx
 msgid "New item"
 msgstr "新项目"
@@ -7812,7 +7836,7 @@ msgid "New routine"
 msgstr "新建例行任务"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -7862,6 +7886,7 @@ msgid "Next page"
 msgstr "下一页"
 
 #: apps/mobile/app/routine.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Next run"
 msgstr "下次运行"
 
@@ -8109,6 +8134,7 @@ msgstr "未找到网站列和密码列。"
 #: apps/web/src/components/billing/SpendingLimitSettings.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/components/vault/VaultItemEditor.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "None"
 msgstr "无"
 
@@ -8763,6 +8789,7 @@ msgstr "暂停 {name}"
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineList.tsx
 #: apps/web/src/pages/shell/bots/import-status.ts
+#: packages/i18n/src/routine-approval.ts
 msgid "Paused"
 msgstr "已暂停"
 
@@ -8959,6 +8986,11 @@ msgstr "此文件类型不支持预览。请下载后查看。"
 msgid "Previous image"
 msgstr "上一张图片"
 
+#: apps/mobile/components/cards/routine-approval-detail.tsx
+#: apps/web/src/components/messages/RoutineApprovalDetail.tsx
+msgid "Previous instructions"
+msgstr ""
+
 #: apps/web/src/pages/shell/chat/chat-find-bar.tsx
 msgid "Previous match"
 msgstr "上一个匹配项"
@@ -8970,6 +9002,10 @@ msgstr "上一页"
 #: apps/web/src/pages/settings/SettingsOverlay.tsx
 msgid "Previous settings sections"
 msgstr "上一组设置项"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Previously: {value}"
+msgstr ""
 
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
@@ -9539,8 +9575,8 @@ msgid "Rename"
 msgstr "重命名"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/components/inbox/inbox-render-item.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -9792,7 +9828,7 @@ msgid "Restoring…"
 msgstr "正在恢复…"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Resume notifications"
 msgstr "恢复通知"
 
@@ -10182,6 +10218,10 @@ msgstr "正在保存…"
 msgid "Say yes or no, or answer in a sentence."
 msgstr "回答是或否，或一句话说明。"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Schedule"
+msgstr ""
+
 #: apps/mobile/app/routine.tsx
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineEditor.tsx
@@ -10430,6 +10470,7 @@ msgstr "将此提示词发送给你的助手"
 msgid "Send with Enter"
 msgstr "按 Enter 发送"
 
+#: apps/mobile/components/cards/AskActions.tsx
 #: apps/mobile/components/thread/failed-send-bubble.tsx
 #: apps/web/src/components/messages/AskCard.tsx
 #: apps/web/src/components/messages/SecretAskCard.tsx
@@ -10444,6 +10485,10 @@ msgstr "正在发送…"
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 msgid "Sent"
 msgstr "已发送"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Separately from this chat"
+msgstr ""
 
 #: apps/mobile/app/_layout.tsx
 #: apps/mobile/app/(settings)/mcp-server.tsx
@@ -10800,7 +10845,7 @@ msgid "Signing out deletes unsent messages."
 msgstr "退出登录将删除未发送的消息。"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Silence notifications"
 msgstr "静音通知"
 
@@ -10909,7 +10954,7 @@ msgid "Slide up to lock"
 msgstr "上滑锁定"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 msgid "Snooze"
 msgstr "延后"
@@ -11167,6 +11212,7 @@ msgstr "州/省/地区"
 #: apps/web/src/pages/space/ActivityList.tsx
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Status"
 msgstr "状态"
 
@@ -11970,6 +12016,10 @@ msgstr "工单"
 msgid "Time of day"
 msgstr "时间"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Time zone"
+msgstr ""
+
 #: apps/web/src/pages/settings/AccountSettingsOverlay.tsx
 msgid "Timezone"
 msgstr "时区"
@@ -12259,7 +12309,7 @@ msgid "Type your answer"
 msgstr "输入你的回答"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/inbox-spaces.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/use-sidebar-view.ts
@@ -12316,7 +12366,7 @@ msgid "Unsent messages"
 msgstr "未发送消息"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/snoozed-chats.tsx
 msgid "Unsnooze"
@@ -12906,6 +12956,10 @@ msgstr "何时运行"
 #: apps/web/src/components/vault/VaultItemEditor.tsx
 msgid "When to use"
 msgstr "何时使用"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Where it runs"
+msgstr ""
 
 #: apps/web/src/pages/shell/host-computer-prompt.tsx
 msgid "Where should bots run?"

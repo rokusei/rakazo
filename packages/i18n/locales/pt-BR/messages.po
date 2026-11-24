@@ -1035,6 +1035,7 @@ msgstr "Ações para {name}"
 #: apps/mobile/app/routine.tsx
 #: apps/web/src/pages/routines/RoutineEditor.tsx
 #: apps/web/src/pages/settings/BillingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Active"
 msgstr "Ativo"
 
@@ -1507,6 +1508,10 @@ msgstr "Sempre permitir"
 msgid "Always allow {site}"
 msgstr "Permitir sempre {site}"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Always allow routine updates"
+msgstr ""
+
 #: apps/mobile/lib/cards/ask-action-label.ts
 #: apps/web/src/components/messages/AskCard.tsx
 msgid "Always allow this tool"
@@ -1715,6 +1720,10 @@ msgstr "Aprovações"
 #: apps/web/src/pages/shell/chat/message-cards.tsx
 msgid "Approve"
 msgstr "Aprovar"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Approve once"
+msgstr ""
 
 #: apps/mobile/lib/calls/call-session.ts
 #: apps/web/src/lib/calls/call-session.ts
@@ -4905,6 +4914,7 @@ msgstr "dias"
 #: apps/web/src/components/call/IncomingCall.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/pages/settings/MessagingSettingsPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Decline"
 msgstr "Recusar"
 
@@ -6449,6 +6459,10 @@ msgstr "Na reunião"
 msgid "In this bot"
 msgstr "Neste bot"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "In this chat"
+msgstr ""
+
 #: apps/mobile/app/(settings)/mcp-server.tsx
 msgid "In use"
 msgstr "Em uso"
@@ -7542,6 +7556,11 @@ msgstr "Mais"
 msgid "More actions"
 msgstr "Mais ações"
 
+#: apps/mobile/components/cards/AskActions.tsx
+#: apps/web/src/components/messages/AskCard.tsx
+msgid "More approval options"
+msgstr ""
+
 #: apps/web/src/pages/plugins/plugin-browse.tsx
 msgid "More apps"
 msgstr "Mais apps"
@@ -7565,7 +7584,7 @@ msgid "Move them to your shared memory."
 msgstr "Mova-os para a sua memória compartilhada."
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/board/board-list.ios.tsx
 #: apps/mobile/lib/board/board-list.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
@@ -7618,6 +7637,7 @@ msgstr "Meus computadores"
 #: apps/web/src/pages/shell/bots/create-bot-dialog.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
 #: apps/web/src/pages/space/GroupPanel.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Name"
 msgstr "Nome"
 
@@ -7764,6 +7784,10 @@ msgstr "Novo chat em grupo"
 msgid "New header value"
 msgstr "Novo valor do cabeçalho"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "New instructions"
+msgstr ""
+
 #: apps/mobile/app/(settings)/vault.tsx
 msgid "New item"
 msgstr "Novo item"
@@ -7812,7 +7836,7 @@ msgid "New routine"
 msgstr "Nova rotina"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -7862,6 +7886,7 @@ msgid "Next page"
 msgstr "Próxima página"
 
 #: apps/mobile/app/routine.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Next run"
 msgstr "Próxima execução"
 
@@ -8109,6 +8134,7 @@ msgstr "Nenhuma coluna de site e senha encontrada."
 #: apps/web/src/components/billing/SpendingLimitSettings.tsx
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 #: apps/web/src/components/vault/VaultItemEditor.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "None"
 msgstr "Nenhum"
 
@@ -8763,6 +8789,7 @@ msgstr "Pausar {name}"
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineList.tsx
 #: apps/web/src/pages/shell/bots/import-status.ts
+#: packages/i18n/src/routine-approval.ts
 msgid "Paused"
 msgstr "Pausado"
 
@@ -8959,6 +8986,11 @@ msgstr "A pré-visualização não está disponível para este tipo de arquivo. 
 msgid "Previous image"
 msgstr "Imagem anterior"
 
+#: apps/mobile/components/cards/routine-approval-detail.tsx
+#: apps/web/src/components/messages/RoutineApprovalDetail.tsx
+msgid "Previous instructions"
+msgstr ""
+
 #: apps/web/src/pages/shell/chat/chat-find-bar.tsx
 msgid "Previous match"
 msgstr "Ocorrência anterior"
@@ -8970,6 +9002,10 @@ msgstr "Página anterior"
 #: apps/web/src/pages/settings/SettingsOverlay.tsx
 msgid "Previous settings sections"
 msgstr "Seções de configurações anteriores"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Previously: {value}"
+msgstr ""
 
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
@@ -9539,8 +9575,8 @@ msgid "Rename"
 msgstr "Renomear"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/components/inbox/inbox-render-item.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
 #: apps/mobile/lib/inbox/use-inbox-chat-actions.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/create-delete-dialogs.tsx
@@ -9792,7 +9828,7 @@ msgid "Restoring…"
 msgstr "Restaurando…"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Resume notifications"
 msgstr "Retomar notificações"
 
@@ -10182,6 +10218,10 @@ msgstr "Salvando..."
 msgid "Say yes or no, or answer in a sentence."
 msgstr "Diga sim ou não, ou responda em uma frase."
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Schedule"
+msgstr ""
+
 #: apps/mobile/app/routine.tsx
 #: apps/mobile/lib/routines/routine.ts
 #: apps/web/src/pages/routines/RoutineEditor.tsx
@@ -10430,6 +10470,7 @@ msgstr "Envie este prompt para seu assistente"
 msgid "Send with Enter"
 msgstr "Enviar com Enter"
 
+#: apps/mobile/components/cards/AskActions.tsx
 #: apps/mobile/components/thread/failed-send-bubble.tsx
 #: apps/web/src/components/messages/AskCard.tsx
 #: apps/web/src/components/messages/SecretAskCard.tsx
@@ -10444,6 +10485,10 @@ msgstr "Enviando…"
 #: apps/web/src/components/messages/ToolQuestionCard.tsx
 msgid "Sent"
 msgstr "Enviado"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Separately from this chat"
+msgstr ""
 
 #: apps/mobile/app/_layout.tsx
 #: apps/mobile/app/(settings)/mcp-server.tsx
@@ -10800,7 +10845,7 @@ msgid "Signing out deletes unsent messages."
 msgstr "Sair exclui as mensagens não enviadas."
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 msgid "Silence notifications"
 msgstr "Silenciar notificações"
 
@@ -10909,7 +10954,7 @@ msgid "Slide up to lock"
 msgstr "Deslize para cima para travar"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 msgid "Snooze"
 msgstr "Adiar"
@@ -11167,6 +11212,7 @@ msgstr "Estado ou região"
 #: apps/web/src/pages/space/ActivityList.tsx
 #: apps/web/src/pages/space/board-views.tsx
 #: apps/web/src/pages/space/Board.tsx
+#: packages/i18n/src/routine-approval.ts
 msgid "Status"
 msgstr "Status"
 
@@ -11970,6 +12016,10 @@ msgstr "Ticket"
 msgid "Time of day"
 msgstr "Hora do dia"
 
+#: packages/i18n/src/routine-approval.ts
+msgid "Time zone"
+msgstr ""
+
 #: apps/web/src/pages/settings/AccountSettingsOverlay.tsx
 msgid "Timezone"
 msgstr "Fuso horário"
@@ -12259,7 +12309,7 @@ msgid "Type your answer"
 msgstr "Digite sua resposta"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/mobile/lib/inbox/inbox-spaces.ts
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/use-sidebar-view.ts
@@ -12316,7 +12366,7 @@ msgid "Unsent messages"
 msgstr "Mensagens não enviadas"
 
 #: apps/mobile/components/inbox/bot-organize-modal.tsx
-#: apps/mobile/components/inbox/inbox-swipe-row.ios.tsx
+#: apps/mobile/components/inbox/chat-menu-items.ios.tsx
 #: apps/web/src/pages/shell/chat/bot-context-menu.tsx
 #: apps/web/src/pages/shell/sidebar/snoozed-chats.tsx
 msgid "Unsnooze"
@@ -12906,6 +12956,10 @@ msgstr "Quando executar"
 #: apps/web/src/components/vault/VaultItemEditor.tsx
 msgid "When to use"
 msgstr "Quando usar"
+
+#: packages/i18n/src/routine-approval.ts
+msgid "Where it runs"
+msgstr ""
 
 #: apps/web/src/pages/shell/host-computer-prompt.tsx
 msgid "Where should bots run?"
